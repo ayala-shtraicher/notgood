@@ -55,7 +55,7 @@ namespace MyProject.WebAPI
             services.AddScoped<IClaimRepository, ClaimRepository>();
 
         }
-        //bkjhk
+        //
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
         {
